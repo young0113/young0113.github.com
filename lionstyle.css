@@ -1,0 +1,32 @@
+.container nav {
+    width: 100%;
+    height: 70px;
+}
+#title {
+    color: darkgrey;
+}
+.container ul li {
+    display: inline;
+    text-align: right;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.container header img{
+    width: 100%;
+    height: 600px;
+}
+.container header h2{
+    color: white;
+    text-align: left;
+}
+
+
+div footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
