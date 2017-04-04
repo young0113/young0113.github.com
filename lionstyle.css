@@ -1,27 +1,90 @@
+.container{
+    width: 960px;
+}
 .container nav {
     width: 100%;
     height: 70px;
 }
 #title {
+    display:inline;
     color: darkgrey;
+    text-align: left;
+    font-family: Verdana;
+    padding-left: 10px;
+    padding-top: 10px;
 }
-.container ul li {
+.container nav ul {
+    
+    text-align: right;
+    padding-bottom: 50px;
+    padding-top: -50px;
+}
+.container nav ul li {
     display: inline;
     text-align: right;
-    font-family: Arial;
+    text-decoration: none;
+    font-family: Verdana;
     font-size: 15px;
+
+}
+.container header{
+    width:100%;
+    height:600px;
+    background-image: url('http://en.es-static.us/upl/2015/12/moon-phases-Fred-Espenak-lg-e1464203296249.jpg')
+}
+.memo{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    padding-top: 200px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
-.container header img{
-    width: 100%;
-    height: 600px;
+.container header p{
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: white;
 }
-.container header h2{
+.container header p h2{
+    float: left;
     color: white;
     text-align: left;
 }
 
+.container section{
 
+    margin-bottom: 100px;
+    margin-top: 20px;
+
+}
+.container section article{
+    padding-right: 10px;
+
+    height: 310px;
+    width: 310px;
+    margin: auto;
+
+}
+
+.container section article p{
+
+    font-family: sans-serif;
+    color: grey;
+    font-size: 15px;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+article img {
+    float: left;
+     height: 310px;
+     width: 310px;
+     margin-right: 10px;
+    padding-bottom: 10px;
+}
 div footer {
     background-color: black;
     text-align: center;
